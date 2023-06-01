@@ -55,8 +55,8 @@
                     <tabBarItem key="tabBarItem" title="Item 2" id="ZVm-ZQ-Vfa"/>
                     <connections>
                         <outlet property="resultText" destination="yP4-PV-qB3" id="c07-db-vGx"/>
-                        <outlet property="text1" destination="JfX-vX-sWo" id="FMK-zx-LhY"/>
-                        <outlet property="text2" destination="QwA-T9-Ysq" id="UMC-xu-bgJ"/>
+                        <outlet property="textField1" destination="JfX-vX-sWo" id="FMK-zx-LhY"/>
+                        <outlet property="textField2" destination="QwA-T9-Ysq" id="UMC-xu-bgJ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="m1u-6S-DGp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -111,8 +111,8 @@
                     <tabBarItem key="tabBarItem" title="Item 1" id="VAe-lc-2sH"/>
                     <connections>
                         <outlet property="resultLabel" destination="Y8k-Mt-P7S" id="DHX-FO-T6W"/>
-                        <outlet property="text1" destination="tqc-ya-ba7" id="FRz-P6-UNC"/>
-                        <outlet property="text2" destination="nUR-XU-MX4" id="eF1-OZ-eF2"/>
+                        <outlet property="textField1" destination="tqc-ya-ba7" id="FRz-P6-UNC"/>
+                        <outlet property="textField2" destination="nUR-XU-MX4" id="eF1-OZ-eF2"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CEH-h9-rnH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
