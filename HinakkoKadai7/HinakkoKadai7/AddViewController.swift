@@ -10,24 +10,24 @@ import UIKit
 class AddViewController: UIViewController {
 
 
-    @IBOutlet weak var text1: UITextField!
+    @IBOutlet weak var textField1: UITextField!
 
-    @IBOutlet weak var text2: UITextField!
+    @IBOutlet weak var textField2: UITextField!
 
     @IBOutlet weak var resultLabel: UILabel!
 
 
     @IBAction func calculateButton(_ sender: UIButton) {
 
-        guard let text1Value = Int(text1.text ?? "") else {
+        guard let text1Value = Int(textField1.text ?? "") else {
             presentAlert(message: "整数を入力して下さい")
             return
         }
-        guard let text2Value = Int(text2.text ?? "") else {
+        guard let text2Value = Int(textField2.text ?? "") else {
             presentAlert(message: "整数を入力して下さい")
             return
         }
-        let resultValue = Int(text1Value + text2Value)
+        let resultValue = text1Value + text2Value
         resultLabel.text = String("\(resultValue)")
         view.endEditing(true)
     }
